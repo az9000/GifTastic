@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+
+    <title>Giftastic</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Topics -->
+        <div class="row" style="padding: 1em;">
+            <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+                <li class="nav-item" data-index='0'>
+                    <a class="nav-link" id="pills-animals-tab" data-toggle="pill" href="#pills-animals" role="tab"
+                        aria-controls="pills-animals" aria-selected="true">Animals</a>
+                </li>
+                <li class="nav-item" data-index='1'>
+                    <a class="nav-link" id="pills-simpsons-tab" data-toggle="pill" href="#pills-simpsons" role="tab"
+                        aria-controls="pills-simpsons" aria-selected="false">Simpsons</a>
+                </li>
+                <li class="nav-item" data-index='2'>
+                    <a class="nav-link" id="pills-sports-tab" data-toggle="pill" href="#pills-sports" role="tab"
+                        aria-controls="pills-sports" aria-selected="false">Sports</a>
+                </li>
+                <li class="nav-item" data-index='3'>
+                    <a class="nav-link" id="pills-anything-tab" data-toggle="pill" href="#pills-anything" role="tab"
+                        aria-controls="pills-anything" aria-selected="false">Random</a>
+                </li>
+                <li class="nav-item" data-index='4'>
+                    <a class="nav-link" id="pills-favorites-tab" data-toggle="pill" href="#pills-favorites" role="tab"
+                        aria-controls="pills-favorites" aria-selected="false">Favorites</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h1 id="topic"></h1>
+            </div>
+            <form class="form-inline">
+
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="inputEntry" class="sr-only">Add entry</label>
+                    <input type="text" class="form-control" id="inputEntry" placeholder="search">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2" id='add-button'></button>
+            </form>
+        </div>
+
+        <div class="row">
+            <hr>
+        </div>
+        <hr>
+        <div class="row" id="button-row">
+        </div>
+        <hr>
+        <div class="row" id="image-row">
+            <div class="card-deck col"></div>
+        </div>
+
+
+    </div>
+
+    <script src="/assets/javascript/app.js"></script>
+
+</body>
+
+</html>
