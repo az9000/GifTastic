@@ -234,7 +234,7 @@ $(document).ready(function () {
 
             $('.card-deck').empty();
 
-            $('#topic').text(favorites);
+            $('#topic').text('favorites');
 
             // load favorites
             if (localStorage.getItem('favorites')) {
