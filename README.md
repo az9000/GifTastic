@@ -23,3 +23,6 @@ All Favorites and new buttons added to each topic, will be stored in the local b
 
 # Author
 Me
+
+# Link
+https://az9000.github.io/GifTastic/
