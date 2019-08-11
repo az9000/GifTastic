@@ -1,5 +1,8 @@
 # GifTastic
 
+# Demo
+https://az9000.github.io/GifTastic/
+
 # Description
 This homework is an exercise in how to utilize web APIs to retrieve contents from we bservices, using jQuery's AJAX functionality. The exercise retrieves GIFs from the 
 
@@ -24,5 +27,3 @@ All Favorites and new buttons added to each topic, will be stored in the local b
 # Author
 Me
 
-# Link
-https://az9000.github.io/GifTastic/
